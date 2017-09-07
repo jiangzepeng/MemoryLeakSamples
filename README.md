@@ -17,12 +17,12 @@ you can scan the qrcode for download demo apk
 # Document
 ### [Android Studio 分析内存泄漏工具指南](http://www.jianshu.com/p/25fdc4793d33)  
 
-# Attention Me
+# Follow Me
 ![](http://upload-images.jianshu.io/upload_images/1750086-58e561db5db3a196.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
 # License
  
-    Copyright 2017, Rotate3D , 1179537855@qq.com
+    Copyright 2017, MemoryLeakSamples , 1179537855@qq.com
  
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
