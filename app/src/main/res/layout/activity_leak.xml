@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:text="操作提示：点击下面按钮产生泄漏对象，然后按返回键关闭当前界面，当界面销毁的时候，这些内存对象由于一直未被销毁，因此产生内存泄漏"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/leak_singleton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="单例context泄漏"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="#f00"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/leak_static"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="static泄漏"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="#f00"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/leak_static_innerclass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="内部类调用泄漏"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="#f00"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/leak_thread"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="线程调用泄漏"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="#f00"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+</LinearLayout>
